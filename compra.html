@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        width: 400px;
+        height: 550px;
+        background-color: rgb(184, 111, 69);
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        margin: 50px;
+        align-content: center;
+        justify-self: center;
+    }  
+</style>
+<body  style="background-color: rgb(190, 245, 153);">
+    <form>
+        <label>Nombre  </label>
+        <input type="text" name="Nombre" placeholder="Nombre" required><br><br>
+        <label>Apellidos  </label>
+        <input type="text" name="Apellido" placeholder="Apellidos"><br><br>
+        <label>Email  </label>
+        <input type="text" name="Email" placeholder="Correo" required><br><br>
+        <label>Password  </label>
+        <input type="password" name="clave" placeholder="Contraseña" required><br><br>
+        <label>Direccion  </label>
+        <input type="text" name="direccion" required><br><br>
+        <label>Pruducto  </label><br>
+        <select>
+        <option value="">Seleccione una planta</option>
+        <option value="planta_1">Ruda </option>
+        <option value="planta_2">Lavanda </option>
+        <option value="planta_3">Aloe vera </option>
+        <option value="planta_4">Manzanilla </option>
+        <option value="planta_5">Menta </option>
+        </select><br><br>
+        <label>Cantidad  </label>
+        <input type="number" name="cantidad" min="1"><br><br>
+        <label>Metodo de pago</label><br>
+        <select>
+            <option value="metodo_1">Tarjeta de credito</option>
+            <option value="metodo_2">PayPal </option>
+            <option value="metodo_3">Nequi</option>
+            <option value="metodo_4">Transferencia Bancaria </option>
+            </select><br><br>
+        <label>Mensaje  </label><br>
+        <textarea id="mansaje" name="mensaje" rows="3" cols="20" placeholder="Describe brevemente"></textarea><br><br>
+        <center><input type="submit" value="Comprar" style="background-color: rgb(67 104 67); width: 200px; height: 30px; border-radius: 20px; font-size: 15px;"></center>
+    </form>
+</body>
+</html>
